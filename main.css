@@ -11,3 +11,10 @@
     border: 1px solid black;
     width: 80px;
 }
+
+.footer {
+    border-top: 2px solid rgba(0,0,0,0.5);
+    height: 200px;
+    font-family: 'forum';
+    font-size: 25px;
+}
