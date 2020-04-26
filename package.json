@@ -19,6 +19,7 @@
     "gh-pages": "^2.2.0"
   },
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "predeploy": "gatsby build",
+    "deploy": "gh-pages -d public -b master"
   }
 }
